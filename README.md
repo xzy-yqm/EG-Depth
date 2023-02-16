@@ -1,4 +1,4 @@
-# EG-net
+# EG-Depth
 
 This is the implementation of paper "Expanding Sparse LiDAR Depth and Guiding Stereo Matching for Robust Dense Depth Estimation" on RAL 2023.
 
