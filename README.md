@@ -8,6 +8,7 @@ Camera ready version and meterials will be ginven.
 ## Abstract
 Dense depth estimation is an important task for various applications, such as object detection, 3-D reconstruction, etc. Stereo matching, as a popular method for dense depth estimation, is faced with challenges when low textures, occlusions or domain gaps exist. Stereo-LiDAR fusion has recently become a promising way to deal with these challenges. However, due to the sparsity and uneven distribution of the LiDAR depth data, existing stereo-LiDAR fusion methods tend to ignore the data when their density is quite low or they largely differ from the depth predicted from stereo images. To provide a solution to this problem, we propose a stereo-LiDAR fusion method by first expanding the sparse LiDAR depth to semi-dense depth with RGB image as reference. Based on the semi-dense depth, a varying-weight Gaussian guiding method is proposed to deal with the varying reliability of guiding signals. A multi-scale feature extraction and fusion method is further used to enhance the network, which shows superior performance than traditional sparse invariant convolution methods. Experimental results on different public datasets demonstrate our superior accuracy and robustness over the state-of-the-arts.
 
+The demo for this work is given here(https://www.bilibili.com/video/BV1Ny4y1Q7xP/?share_source=copy_web&vd_source=51c40af798701c92348ce081b8f7e9c4), where CE-NET, GSM is chosen for comparison.
 
 # How to use
 
@@ -52,14 +53,15 @@ You can use this checkpoint to reproduce the result we reported in Table.I of th
 ## Citation
 If you find this code useful in your research, please cite:
 ```
-@artical {IEEE ROBOTICS AND AUTOMATION LETTERS,
-    author    = {Zhenyu Xu , Yuehua Li, Shiqiang Zhu, and Yuxiang Sun},
-    title     = {Expanding Sparse LiDAR Depth and Guiding Stereo Matching for Robust Dense Depth Estimation},
-    booktitle = {},
-    month     = {},
-    year      = {2023},
-    pages     = {}
-}
+@ARTICLE{10026457,
+  author={Xu, Zhenyu and Li, Yuehua and Zhu, Shiqiang and Sun, Yuxiang},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={Expanding Sparse LiDAR Depth and Guiding Stereo Matching for Robust Dense Depth Estimation}, 
+  year={2023},
+  volume={8},
+  number={3},
+  pages={1479-1486},
+  doi={10.1109/LRA.2023.3240093}}
 ```
 # Acknowledgements
 
