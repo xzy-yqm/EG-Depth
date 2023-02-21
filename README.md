@@ -48,7 +48,7 @@ To repeat our pretraining details.
 run the script `./scripts/kitti_completion_test.sh` to evaluate the performance on KITTI completion datsets.
 
 ## Pretrained Models
-[Pretraining Model]( )
+[Pretraining Model](http://gofile.me/6Yocc/u6vMVDota)
 You can use this checkpoint to reproduce the result we reported in Table.I of the main paper.
 
 ## Citation
